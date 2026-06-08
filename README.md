@@ -6,6 +6,18 @@ Colorectal cancer (CRC) is one of the leading causes of cancer-related mortality
 
 This project investigates how colorectal cancer cells adapt to the liver microenvironment by comparing transcriptomic profiles between primary colorectal tumors and liver metastatic lesions.
 
+## Project Highlights
+
+- Dataset: GSE50760
+- Samples: Primary CRC vs Liver Metastatic CRC
+- Analysis Pipeline: limma-voom → DEG Analysis → ORA → GSEA
+- Significant DEGs Identified: 600+
+- Major Biological Themes:
+  - Metabolic Rewiring
+  - Extracellular Remodeling
+  - Complement & Coagulation Signaling
+- Key Conclusion:
+  Metastatic CRC cells exhibit extensive transcriptomic adaptation to the liver microenvironment.
 ---
 
 ## Research Question
@@ -112,11 +124,16 @@ Complement and coagulation pathways emerged among the strongest enriched terms, 
 ---
 ## Why Does This Matter?
 
-Metastasis remains the leading cause of cancer-related mortality.
+Cancer metastasis is often described as a process of migration, but migration is only the first step.
 
-While the movement of cancer cells between organs is well studied, less attention is often given to how these cells adapt after arrival.
+A metastatic cell that reaches the liver faces an entirely new ecosystem. To survive, it must secure nutrients, evade immune defenses, communicate with surrounding cells, and remodel its environment. Failure to adapt means elimination.
 
-The enrichment of metabolic, extracellular, and complement-associated pathways observed in this analysis suggests that successful liver metastasis may require extensive transcriptomic reprogramming.
+Interestingly, both ORA and GSEA independently pointed toward pathways involved in metabolic rewiring, xenobiotic processing, extracellular remodeling, and complement-associated signaling.
+
+Together, these findings suggest that successful colorectal cancer metastasis may involve large-scale transcriptomic reprogramming that enables cancer cells to function more effectively within the liver microenvironment.
+
+In other words, metastasis may not simply be a story of movement—it may also be a story of adaptation.
+
 
 These findings support the idea that metastasis is not only a process of migration, but also one of adaptation.
 ---
