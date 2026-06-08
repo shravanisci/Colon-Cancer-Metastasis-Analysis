@@ -96,7 +96,30 @@ Enrichment of extracellular matrix and extracellular space-associated pathways s
 Complement and coagulation pathways emerged among the strongest enriched terms, highlighting potential interactions between metastatic cancer cells and the liver microenvironment.
 
 ---
+## Key Visualizations
+### PCA Reveals Distinct Transcriptomic States
 
+![PCA](figures/pcaplot_gse50760.png)
+### Differential Gene Expression
+
+![Volcano Plot](figures/volcanoplot_gse50760.png)
+### Clustering of Top Differentially Expressed Genes
+
+![Heatmap](figures/clustered_heatmap_gse50760.png)
+### Functional Enrichment Analysis
+
+![ORA vs GSEA](figures/ora_vs_gsea.png)
+---
+## Why Does This Matter?
+
+Metastasis remains the leading cause of cancer-related mortality.
+
+While the movement of cancer cells between organs is well studied, less attention is often given to how these cells adapt after arrival.
+
+The enrichment of metabolic, extracellular, and complement-associated pathways observed in this analysis suggests that successful liver metastasis may require extensive transcriptomic reprogramming.
+
+These findings support the idea that metastasis is not only a process of migration, but also one of adaptation.
+---
 ## Biological Interpretation
 
 Rather than simply spreading to a new organ, metastatic colorectal cancer cells appear to undergo extensive transcriptional reprogramming that may improve their fitness within the liver.
