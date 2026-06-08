@@ -173,7 +173,9 @@ Colon-Cancer-Metastasis-Analysis/
 - Integration with proteomic and clinical datasets
 
 ---
-
+##Limitations:
+This analysis was performed using publicly available FPKM-normalized expression data rather than raw RNA-seq counts. Results should therefore be interpreted as exploratory and hypothesis-generating.
+---
 ## Author
 
 **Shravani BS Bollapragada**
